@@ -7,7 +7,6 @@ The emphasis is not on heavy mathematics or machine learning models, but on
 **developing correct intuition**, asking the right questions, and translating
 probability into meaningful business insights.
 
----
 
 ## Why This Repository Exists
 
@@ -20,21 +19,18 @@ This repository focuses on:
 - Applying **Bayesian thinking as belief updating**, not as a formula
 - Building intuition that is directly applicable to analytics, product, and data science interviews
 
----
-
 ## Repository Structure
 
----
+```
 probability-in-the-wild/
 ├── project-1-customer-funnel/
 ├── project-2-customer-churn/
 └── README.md
+```
 
 
 Each project explores probability from a different perspective, while sharing
 the same foundational concepts.
-
----
 
 ## Project Overview
 
@@ -67,8 +63,6 @@ This type of reasoning is commonly used in:
 - Growth analysis
 - A/B test interpretation
 
----
-
 ### Project 2: Customer Churn Analysis Using Bayesian Thinking  
 **(Belief Update over Customer Attributes)**
 
@@ -98,7 +92,6 @@ This type of reasoning is commonly used in:
 - Customer segmentation
 - Decision-making under uncertainty
 
----
 
 ## How the Two Projects Differ (and When to Use Each)
 
@@ -114,7 +107,6 @@ Although both projects rely on the same probability foundations, they answer
 | Probability answers | “What happens next?” | “What do I believe now?” |
 | Typical use cases | Funnels, growth | Churn, risk, retention |
 
----
 
 ## Conditional Probability vs Bayesian Thinking (Clarified)
 
@@ -137,14 +129,12 @@ Importantly, these projects **do not use Naive Bayes models**.
 They use conditional probability and Bayesian reasoning conceptually,
 without assuming feature independence or building classifiers.
 
----
 
 ## Tools Used
 - Python
 - Pandas
 - NumPy
 
----
 
 ## Learning Philosophy
 
@@ -163,7 +153,6 @@ The goal is to build intuition that is:
 - Transferable across domains
 - Grounded in real data scenarios
 
----
 
 ## Key Takeaway
 
