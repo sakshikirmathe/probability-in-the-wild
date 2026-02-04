@@ -25,9 +25,9 @@ This repository focuses on:
 probability-in-the-wild/
 ├── project-1-customer-funnel/
 ├── project-2-customer-churn/
+├── project-3-distributions/
 └── README.md
 ```
-
 
 Each project explores probability from a different perspective, while sharing
 the same foundational concepts.
@@ -129,12 +129,42 @@ Importantly, these projects **do not use Naive Bayes models**.
 They use conditional probability and Bayesian reasoning conceptually,
 without assuming feature independence or building classifiers.
 
+### Project 3: Understanding Distributions Through Customer Data  
+**(Normal, Binomial, and Poisson Intuition)**
+
+This project focuses on developing intuition for **probability distributions**
+and understanding **when to use which distribution** based on the data-generating process.
+
+Instead of assuming distributions, the project examines:
+- the shape of real data,
+- the assumptions behind common distributions,
+- and how business constraints affect distribution choice.
+
+**Key questions explored:**
+- When is the normal distribution a reasonable approximation?
+- Why are binary outcomes naturally modeled using a binomial distribution?
+- How are event counts over time correctly modeled using a Poisson distribution?
+
+**Distributions covered:**
+- **Normal distribution** for continuous variables (e.g., customer charges)
+- **Binomial distribution** for binary outcomes (e.g., churn)
+- **Poisson distribution** for event counts over time (synthetic example)
+
+**Mental model:**  
+> The correct distribution depends on **how the data is generated**, not just on its appearance.
+
+This type of reasoning is commonly used in:
+- Experiment analysis
+- Capacity planning
+- Risk estimation
+- Statistical modeling assumptions
+
 
 ## Tools Used
 - Python
 - Pandas
 - NumPy
-
+- Matplotlib
 
 ## Learning Philosophy
 
@@ -153,6 +183,9 @@ The goal is to build intuition that is:
 - Transferable across domains
 - Grounded in real data scenarios
 
+Together, these projects move from understanding variability (Day 1),
+to conditional reasoning (Day 2), and finally to selecting appropriate
+probabilistic models for uncertainty (Day 3).
 
 ## Key Takeaway
 
